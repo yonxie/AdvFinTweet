@@ -52,7 +52,9 @@ bash train.sh han
 It trains the models with the same hyperparameters used in the paper. The training logs and checkpoints are save in `/log/train` and `checkpoints` respectively. 
 
 ## Highlighted Results
+- Effect of attack budget on Attack Success Rate (ASR)
+<img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/budget_effect.png" width="600">
 
-![image](https://github.com/yonxie/AdvFinTweet/images/budget_effect.pdf)
+- Impact of the attack on portfolio PnL
+<img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/pnl.png" width="600">
 
-![image](https://github.com/yonxie/AdvFinTweet/images/pnl_single_pct.pdf)
