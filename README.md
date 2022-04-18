@@ -1,16 +1,8 @@
 
 # A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction
 
-This repository is the official implementation of [A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction](https://openreview.net/pdf?id=Sxgh3cbSbq). 
+We consider a tweet concatenation attack that 'retweet' semantically similar tweets to fool financial forecasting models. This repository is the official implementation of [our paper](https://openreview.net/pdf?id=Sxgh3cbSbq). 
 
-```
-@article{xie2022advtweet, 
-  title={A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction},
-  author={Xie, Yong and Wang, Dakuo and Chen, Pin-Yu and Jinjun, Xiong and Liu, Sijia and Koyejo, Oluwasanmi},
-  journal={Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-  year={2022}
-}
-```
 
 ## Requirements
 
@@ -40,6 +32,7 @@ bash attach.sh han
 
 It conducts *concatenation attack with perturbation of replacement* for various budget via *joint optimization*. The results are saved in `/log/attack`. The attack uses our trained models. Change the arguments in the script to implement different attacks. 
 
+<img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/fake_tweet.png" width="600">
 
 ## Training
 
@@ -55,6 +48,16 @@ It trains the models with the same hyperparameters used in the paper. The traini
 - Effect of attack budget on Attack Success Rate (ASR)
 <img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/budget_effect.png" width="600">
 
-- Impact of the attack on portfolio PnL
+- Impact of the attack on portfolio PnL: trading simulation with initial value $10000 shows our attack causes additional loss of $3200 (32%) over two years. 
 <img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/pnl.png" width="600">
 
+## Citation
+
+```
+@article{xie2022advtweet, 
+  title={A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction},
+  author={Xie, Yong and Wang, Dakuo and Chen, Pin-Yu and Jinjun, Xiong and Liu, Sijia and Koyejo, Oluwasanmi},
+  journal={Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  year={2022}
+}
+```
