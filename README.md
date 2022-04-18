@@ -48,7 +48,7 @@ It trains the models with the same hyperparameters used in the paper. The traini
 - Effect of attack budget on Attack Success Rate (ASR)
 <img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/budget_effect.png" width="600">
 
-- Impact of the attack on portfolio PnL: trading simulation with initial value $10000 shows our attack causes additional loss of $3200 (32%) over two years. 
+- Impact of the attack on portfolio PnL: trading simulation with initial value \$10000 shows our attack causes additional loss of $3200 (32%) over two years. 
 <img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/pnl.png" width="600">
 
 ## Citation
