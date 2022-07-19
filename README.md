@@ -3,7 +3,7 @@
 
 We consider a tweet concatenation attack that 'retweet' semantically similar tweets to fool financial forecasting models. This repository is the official implementation of [our paper](https://openreview.net/pdf?id=Sxgh3cbSbq). 
 
-<img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/adversarial_tweet.jpg" width="300">
+<img src="https://github.com/yonxie/AdvFinTweet/blob/main/images/adversarial_tweet.png" width="400">
 
 
 ## Requirements
