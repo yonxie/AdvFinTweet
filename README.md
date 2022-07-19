@@ -29,7 +29,7 @@ bash downloader.sh
 To run the attack and look into the results, run the following command with model arguements `han`, `stocknet`, `tweetgru` or `tweetlstm`:
 
 ```eval
-bash attach.sh han
+bash attack.sh han
 ```
 
 It conducts *concatenation attack with perturbation of replacement* for various budget via *joint optimization*. The results are saved in `/log/attack`. The attack uses our trained models. Change the arguments in the script to implement different attacks. 
